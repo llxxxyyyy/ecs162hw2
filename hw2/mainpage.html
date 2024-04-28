@@ -1,1 +1,37 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Arcade</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        header, footer { text-align: center; padding: 1em; background-color: #f4f4f4; }
+        nav { margin-top: 10px; }
+        nav a { margin-right: 20px; text-decoration: none; color: #333; }
+        .games-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; padding: 20px; }
+        .game { border: 1px solid #ccc; padding: 10px; text-align: center; }
+        .game:hover { background-color: #cf2c2c; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Game Arcade</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#howtoplay">How to Play</a>
+        </nav>
+    </header>
+
+    <div class="games-grid">
+        <div class="game" title="Game 1: A fun puzzle game">Game 1</div>
+        <div class="game" title="Game 2: An exciting adventure game">Game 2</div>
+        <div class="game" title="Game 3: A strategic board game">Game 3</div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2021. All rights reserved.</p>
+        <p>Open source games used under license.</p>
+    </footer>
+</body>
+</html>
