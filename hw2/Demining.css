@@ -1,0 +1,37 @@
+body {
+    text-align: center; /* Centers the content horizontally */
+    margin: 0; /* Removes default margin */
+    padding-top: 20px; /* Adds some space at the top */
+}
+h1 {
+    margin-bottom: 20px; /* Adds space below the title */
+}
+
+#gameOverMessage {
+  text-align: center;
+  /* 更多样式，根据需要调整 */
+}
+.revealed {
+  background-color: #e0e0e0;  /* 淡灰色背景 */
+  color: #333;               /* 深色文字 */
+}
+#minefield {
+    display: grid;
+    grid-template-columns: repeat(10, 30px); /* Adjust as needed */
+    grid-gap: 1px; /* Adjust the gap between cells */
+    justify-content: center; /* Centers the grid horizontally */
+    margin: 0 auto; /* Centers the grid in the page */
+}
+  
+  #minefield div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+  }
+
+  
