@@ -1,37 +1,39 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Arcade</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        header, footer { text-align: center; padding: 1em; background-color: #f4f4f4; }
-        nav { margin-top: 10px; }
-        nav a { margin-right: 20px; text-decoration: none; color: #333; }
-        .games-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; padding: 20px; }
-        .game { border: 1px solid #ccc; padding: 10px; text-align: center; }
-        .game:hover { background-color: #cf2c2c; cursor: pointer; }
-    </style>
+    <link rel="stylesheet" href="mainpage.css">
 </head>
+
 <body>
     <header>
         <h1>Game Arcade</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#howtoplay">How to Play</a>
-        </nav>
     </header>
 
+    <p>The third one is an open resource game. Our target players will be children who are intersting in simple games.</p>
     <div class="games-grid">
-        <div class="game" title="Game 1: A fun puzzle game">Game 1</div>
-        <div class="game" title="Game 2:Snake game"><a href="Snake Game.html">Snake Game</a></div>
-        <div class="game" title="Game 3: A strategic board game">Game 3</div>
+        <div class="game" title="Game 1:Snake game">
+            <div class="image" style="background-image: url('apple.png');"></div>
+            <div class="content"> This game simplly controls the snake to eat the apple. The more apples you get, the more credits you earn. </div>
+            <a href="Snake Game.html">Snake Game</a></div>
+
+        <div class="game" title="Game 2: An exciting adventure game">
+            <div class="image" style="background-image: url('apple.png');"></div>
+            <div class="content"> game describe </div>
+            <a href="  ">Game 2</a></div>
+        <div class="game" title="Game 3: A strategic board game">
+            <div class="image" style="background-image: url('apple.png');"></div>
+            <div class="content"> game describe </div>
+            <a href=" ">Game3</a></div>
     </div>
 
     <footer>
-        <p>Copyright &copy; 2021. All rights reserved.</p>
-        <p>Open source games used under license.</p>
+        
+
+        <p>Name//</p>
+        <p>Contect email:</p>
     </footer>
 </body>
 </html>
