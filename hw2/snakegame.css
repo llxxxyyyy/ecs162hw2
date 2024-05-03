@@ -5,11 +5,11 @@
 
 h1{
     font-size: xxx-large;
-    text-shadow: 5px 5px 5px #FF0000;
+    text-shadow: 5px 5px 5px #ff00005e;
 }
 
 html {
-    background-image: linear-gradient( rgb(11, 129, 35),20%, rgb(11, 54, 36));
+    background-image: linear-gradient( rgba(95, 207, 118, 0.644),20%, rgba(196, 129, 135, 0.733));
     background-size: auto;
 }
 
